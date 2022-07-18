@@ -1,0 +1,8 @@
+
+ENDPOINTS:
+    #Web
+        http://localhost:8086
+
+
+
+

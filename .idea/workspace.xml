@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4979561e-7869-49ea-9d3f-7337121bfa93" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BibliotecaLauncher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/mis_notas/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/mis_notas/notas.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/BibliotecaAdminApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/api/appinfo/PerfilActivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/api/exceptions/CampoEnBlancoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/api/exceptions/DuplicarRecursoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/api/exceptions/ExceptionHandlerPersonalizado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/api/exceptions/ModeloException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/api/exceptions/NoHayResultadosException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/api/exceptions/RecursoNoEncontradoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/api/exceptions/RecursoNoVinculadoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/api/exceptions/RecursoYaVinculadoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/api/exceptions/RepetirVinculoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/api/hateoas/Hateoas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/api/hateoas/indice/Indice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/api/hateoas/indice/MetodosDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/api/hateoas/indice/MetodosGet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/api/hateoas/indice/MetodosPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/api/hateoas/indice/MetodosPut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/api/mapper/Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/api/mapper/MapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/api/validation/TextoRestricciones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/api/validation/TextoValidaciones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/core/controller/ControllerBibliotecaRest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/core/model/clasesempaquetado/TemaSupertema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/core/model/clasesempaquetado/TextoAutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/core/model/clasesempaquetado/TextoTema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/core/model/dto/AutorDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/core/model/dto/SupertemaDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/core/model/dto/TemaDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/core/model/dto/TextoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/core/model/nuevosrecurso/AutorNuevo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/core/model/nuevosrecurso/SupertemaNuevo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/core/model/nuevosrecurso/TemaNuevo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/core/model/nuevosrecurso/TextoNuevo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/core/service/ServiceBiblioteca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/core/service/ServiceBibliotecaImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/persistence/entities/AutorEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/persistence/entities/SupertemaEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/persistence/entities/TemaEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/persistence/entities/TextoEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/persistence/repository/AutorJpaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/persistence/repository/RepositoryBiblioteca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/persistence/repository/RepositoryBibliotecaImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/persistence/repository/SupertemaJpaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/persistence/repository/TemaJpaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/persistence/repository/TextoJpaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/resources/application-h2profile.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/resources/application-mysqlprofile.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/resources/h2bbdd/h2biblioteca.trace.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-rest/src/test/java/com/mariots/biblioteca/bibliotecarest/BibliotecaAdminApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/mis_notas/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/mis_notas/notas.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/java/com/mariots/biblioteca/bibliotecawebadmin/BibliotecaAdminApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/java/com/mariots/biblioteca/bibliotecawebadmin/api/appinfo/PerfilActivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/java/com/mariots/biblioteca/bibliotecawebadmin/api/exceptions/CampoEnBlancoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/java/com/mariots/biblioteca/bibliotecawebadmin/api/exceptions/ExceptionDesdeFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/java/com/mariots/biblioteca/bibliotecawebadmin/api/exceptions/ModeloException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/java/com/mariots/biblioteca/bibliotecawebadmin/api/exceptions/ModeloExceptionFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/java/com/mariots/biblioteca/bibliotecawebadmin/api/exceptions/RecursoNoEncontradoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/java/com/mariots/biblioteca/bibliotecawebadmin/api/exceptions/RecursoNoVinculadoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/java/com/mariots/biblioteca/bibliotecawebadmin/api/exceptions/RecursoYaVinculadoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/java/com/mariots/biblioteca/bibliotecawebadmin/api/exceptions/RepetirVinculoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/java/com/mariots/biblioteca/bibliotecawebadmin/api/exceptions/ResponseEntityExceptionHandlerPersonalizado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/java/com/mariots/biblioteca/bibliotecawebadmin/api/feign/CustomErrorDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/java/com/mariots/biblioteca/bibliotecawebadmin/api/feign/FeignConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/java/com/mariots/biblioteca/bibliotecawebadmin/api/mapper/Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/java/com/mariots/biblioteca/bibliotecawebadmin/api/mapper/MapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/java/com/mariots/biblioteca/bibliotecawebadmin/api/models/Autor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/java/com/mariots/biblioteca/bibliotecawebadmin/api/models/Supertema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/java/com/mariots/biblioteca/bibliotecawebadmin/api/models/Tema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/java/com/mariots/biblioteca/bibliotecawebadmin/api/models/Texto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/java/com/mariots/biblioteca/bibliotecawebadmin/api/models/nuevorecurso/AutorNuevo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/java/com/mariots/biblioteca/bibliotecawebadmin/api/models/nuevorecurso/SupertemaNuevo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/java/com/mariots/biblioteca/bibliotecawebadmin/api/models/nuevorecurso/TemaNuevo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/java/com/mariots/biblioteca/bibliotecawebadmin/api/models/nuevorecurso/TextoNuevo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/java/com/mariots/biblioteca/bibliotecawebadmin/api/models/web/TextoWeb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/java/com/mariots/biblioteca/bibliotecawebadmin/api/models/wrappedmodels/TemaSupertema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/java/com/mariots/biblioteca/bibliotecawebadmin/api/models/wrappedmodels/TextoAutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/java/com/mariots/biblioteca/bibliotecawebadmin/api/models/wrappedmodels/TextoTema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/java/com/mariots/biblioteca/bibliotecawebadmin/core/controller/ControllerBibliotecaWeb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/java/com/mariots/biblioteca/bibliotecawebadmin/core/service/ServiceBiblioteca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/java/com/mariots/biblioteca/bibliotecawebadmin/core/service/ServiceBibliotecaImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/java/com/mariots/biblioteca/bibliotecawebadmin/repository/BibliotecaRestProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/java/com/mariots/biblioteca/bibliotecawebadmin/repository/RepositoryBiblioteca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/java/com/mariots/biblioteca/bibliotecawebadmin/repository/RepositoryBibliotecaImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/resources/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/resources/resources/buscar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/resources/resources/cabeza.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/resources/resources/carpeta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/resources/resources/cerrar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/resources/resources/clip-de-papel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/resources/resources/editar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/resources/resources/enviar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/resources/resources/laurel-favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/resources/resources/laurel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/resources/resources/lista.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/resources/resources/recargar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/resources/resources/usuario.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/resources/static/indexStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/resources/static/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/webapp/WEB-INF/jsp/nuevo_autor.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/webapp/WEB-INF/jsp/nuevo_tema.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/main/webapp/WEB-INF/jsp/nuevo_texto.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-web-admin/src/test/java/com/mariots/biblioteca/bibliotecawebadmin/BibliotecaAdminApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Bwsz47K4g6opHK2L2F2D97Z0NJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;16&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/anoth/OneDrive/Documentos/Programación/Proyectos/biblioteca-mm/biblioteca-web-admin&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.web-admin">
+    <configuration name="rest-api" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.mariots.biblioteca.bibliotecarest.BibliotecaAdminApplication" />
+      <module name="biblioteca-rest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mariots.biblioteca.bibliotecarest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="web-admin" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.mariots.biblioteca.bibliotecawebadmin.BibliotecaAdminApplication" />
+      <module name="biblioteca-web-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mariots.biblioteca.bibliotecawebadmin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.rest-api" />
+      <item itemvalue="Application.web-admin" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.web-admin" />
+        <item itemvalue="Application.rest-api" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4979561e-7869-49ea-9d3f-7337121bfa93" name="Changes" comment="" />
+      <created>1657828742608</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657828742608</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

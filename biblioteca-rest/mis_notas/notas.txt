@@ -1,0 +1,10 @@
+
+
+
+MEJORAS
+
+HTOAS dinmámicos
+
+Conectar repository de web a biblioteca-rest
+
+Autenticación y autorización

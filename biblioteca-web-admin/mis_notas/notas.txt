@@ -1,0 +1,6 @@
+Repository como métodos de petición REST
+
+Web funciona con un solo model y clases de empaquetado de varios model para envío a web
+
+Service gestión avanzada de los datos obtenidos desde biblioteca-rest en el service
+

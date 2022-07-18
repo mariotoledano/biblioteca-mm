@@ -1,0 +1,26 @@
+
+ENDPOINTS:
+    #Swagger
+        http://localhost:8085/swagger-ui/index.html
+    #H2 Base de Datos
+        http://localhost:8085/h2
+    #HAL Explorer
+        http://localhost:8085/
+    #Actuator
+        http://localhost:8085/actuator
+
+GESTIÓN RECURSOS
+    //GET indice -->Indice de todas las acciones posibles
+    //GET resource --> Recuperar todos los resources de un tipo
+    //GET resource/{id} --> Recuperar recurso por id
+    //GET resource/nombre/{nombre} --> Recuperar recurso por nombre
+    //GET resource/resource/{id} --> texto por autor, texto por tema, texto por supertema, tema por supertema
+
+    //POST resource --> Creación nuevo resource
+    //POST resource/{id}/resource/{id} -->vincular recursos (actualizar vinculos existentes con PUT)
+
+    //PUT resource/{id}/resource/{id} --> sobreescribir vínculos existentes
+    //PUT resource/{id} + body data -->Actualizar un recurso
+
+    //DELETE resource/{id} --> Eliminar recursos por id
+    //DELETE resource/{id}/resource/{id} --> Eliminar vínculos entre recursos por id
