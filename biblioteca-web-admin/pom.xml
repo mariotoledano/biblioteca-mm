@@ -13,119 +13,141 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>biblioteca-web-admin</name>
 	<description>Cliente web de biblioteca-rest para administracion</description>
-
-<!--PROPERTIES-->
-	<properties>
-		<java.version>11</java.version>
-		<org.projectlombok.version>1.18.22</org.projectlombok.version>
-	</properties>
-
-<!--DEPENDENCIES-->
-	<dependencyManagement>
+<!--	DEPENDENCY MANAGEMENT-->
+<!--	<dependencyManagement>-->
 		<dependencies>
 			<dependency>
 				<groupId>org.mariots.biblioteca</groupId>
 				<artifactId>biblioteca-mm</artifactId>
 				<version>1.0-SNAPSHOT</version>
-				<type>pom</type>
-				<scope>import</scope>
-			</dependency>
-			<dependency>
-				<groupId>org.projectlombok</groupId>
-				<artifactId>lombok</artifactId>
-				<version>${org.projectlombok.version}</version>
-				<scope>provided</scope>
+<!--				<type>pom</type>-->
+<!--				<scope>import</scope>-->
 			</dependency>
 		</dependencies>
-	</dependencyManagement>
-
-<!--PROFILES-->
-
-<!--DEPENDENCIES-->
-	<dependencies>
-		<dependency>
-			<groupId>org.mariots.biblioteca</groupId>
-			<artifactId>biblioteca-mm</artifactId>
-			<version>1.0-SNAPSHOT</version>
-		</dependency>
-		<!--BASICO-->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-devtools</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-tomcat</artifactId>
-		</dependency>
-
-		<!--CLOUD-->
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-openfeign</artifactId>
-			<version>3.1.2</version>
-		</dependency>
-
-
-
-		<!--MONITORIZACION-->
-
-		<!--MVC-->
-		<dependency>
-			<groupId>org.apache.tomcat.embed</groupId>
-			<artifactId>tomcat-embed-jasper</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>jstl</artifactId>
-		</dependency>
-
-		<!--OTROS-->
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<version>${org.projectlombok.version}</version>
-			<scope>provided</scope>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.json/json -->
-		<dependency>
-			<groupId>org.json</groupId>
-			<artifactId>json</artifactId>
-			<version>20220320</version>
-		</dependency>
-
-
-	</dependencies>
-
-<!--BUILD-->
-<!--	<build>-->
-<!--		<plugins>-->
-<!--			<plugin>-->
-<!--				<groupId>org.springframework.boot</groupId>-->
-<!--				<artifactId>spring-boot-maven-plugin</artifactId>-->
-<!--			</plugin>-->
-<!--		</plugins>-->
-<!--	</build>-->
-	<!--BUILD-->
+<!--	</dependencyManagement>-->
+<!--	BUILD-->
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-resources-plugin</artifactId>
-				<version>3.1.0</version>
-				<configuration>
-					<encoding>UTF-8</encoding>
-				</configuration>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
+
+<!--&lt;!&ndash;PROPERTIES&ndash;&gt;-->
+<!--	<properties>-->
+<!--		<java.version>11</java.version>-->
+<!--		<org.projectlombok.version>1.18.22</org.projectlombok.version>-->
+<!--	</properties>-->
+
+<!--&lt;!&ndash;DEPENDENCIES&ndash;&gt;-->
+<!--	<dependencyManagement>-->
+<!--		<dependencies>-->
+<!--			<dependency>-->
+<!--				<groupId>org.mariots.biblioteca</groupId>-->
+<!--				<artifactId>biblioteca-mm</artifactId>-->
+<!--				<version>1.0-SNAPSHOT</version>-->
+<!--				<type>pom</type>-->
+<!--				<scope>import</scope>-->
+<!--			</dependency>-->
+<!--			<dependency>-->
+<!--				<groupId>org.projectlombok</groupId>-->
+<!--				<artifactId>lombok</artifactId>-->
+<!--				<version>${org.projectlombok.version}</version>-->
+<!--				<scope>provided</scope>-->
+<!--			</dependency>-->
+<!--		</dependencies>-->
+<!--	</dependencyManagement>-->
+
+<!--&lt;!&ndash;PROFILES&ndash;&gt;-->
+
+<!--&lt;!&ndash;DEPENDENCIES&ndash;&gt;-->
+<!--	<dependencies>-->
+<!--		<dependency>-->
+<!--			<groupId>org.mariots.biblioteca</groupId>-->
+<!--			<artifactId>biblioteca-mm</artifactId>-->
+<!--			<version>1.0-SNAPSHOT</version>-->
+<!--		</dependency>-->
+<!--		&lt;!&ndash;BASICO&ndash;&gt;-->
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.boot</groupId>-->
+<!--			<artifactId>spring-boot-starter-web</artifactId>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.boot</groupId>-->
+<!--			<artifactId>spring-boot-devtools</artifactId>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.boot</groupId>-->
+<!--			<artifactId>spring-boot-starter-test</artifactId>-->
+<!--			<scope>test</scope>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.boot</groupId>-->
+<!--			<artifactId>spring-boot-starter-tomcat</artifactId>-->
+<!--		</dependency>-->
+
+<!--		&lt;!&ndash;CLOUD&ndash;&gt;-->
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.cloud</groupId>-->
+<!--			<artifactId>spring-cloud-starter-openfeign</artifactId>-->
+<!--			<version>3.1.2</version>-->
+<!--		</dependency>-->
+
+
+
+<!--		&lt;!&ndash;MONITORIZACION&ndash;&gt;-->
+
+<!--		&lt;!&ndash;MVC&ndash;&gt;-->
+<!--		<dependency>-->
+<!--			<groupId>org.apache.tomcat.embed</groupId>-->
+<!--			<artifactId>tomcat-embed-jasper</artifactId>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>javax.servlet</groupId>-->
+<!--			<artifactId>jstl</artifactId>-->
+<!--		</dependency>-->
+
+<!--		&lt;!&ndash;OTROS&ndash;&gt;-->
+<!--		<dependency>-->
+<!--			<groupId>org.projectlombok</groupId>-->
+<!--			<artifactId>lombok</artifactId>-->
+<!--			<version>${org.projectlombok.version}</version>-->
+<!--			<scope>provided</scope>-->
+<!--		</dependency>-->
+<!--		&lt;!&ndash; https://mvnrepository.com/artifact/org.json/json &ndash;&gt;-->
+<!--		<dependency>-->
+<!--			<groupId>org.json</groupId>-->
+<!--			<artifactId>json</artifactId>-->
+<!--			<version>20220320</version>-->
+<!--		</dependency>-->
+
+
+<!--	</dependencies>-->
+
+<!--&lt;!&ndash;BUILD&ndash;&gt;-->
+<!--&lt;!&ndash;	<build>&ndash;&gt;-->
+<!--&lt;!&ndash;		<plugins>&ndash;&gt;-->
+<!--&lt;!&ndash;			<plugin>&ndash;&gt;-->
+<!--&lt;!&ndash;				<groupId>org.springframework.boot</groupId>&ndash;&gt;-->
+<!--&lt;!&ndash;				<artifactId>spring-boot-maven-plugin</artifactId>&ndash;&gt;-->
+<!--&lt;!&ndash;			</plugin>&ndash;&gt;-->
+<!--&lt;!&ndash;		</plugins>&ndash;&gt;-->
+<!--&lt;!&ndash;	</build>&ndash;&gt;-->
+<!--	&lt;!&ndash;BUILD&ndash;&gt;-->
+<!--	<build>-->
+<!--		<plugins>-->
+<!--			<plugin>-->
+<!--				<groupId>org.apache.maven.plugins</groupId>-->
+<!--				<artifactId>maven-resources-plugin</artifactId>-->
+<!--				<version>3.1.0</version>-->
+<!--				<configuration>-->
+<!--					<encoding>UTF-8</encoding>-->
+<!--				</configuration>-->
+<!--			</plugin>-->
+<!--		</plugins>-->
+<!--	</build>-->
+
+
