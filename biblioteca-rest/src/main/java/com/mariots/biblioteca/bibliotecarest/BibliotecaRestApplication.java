@@ -10,12 +10,12 @@ import javax.annotation.PostConstruct;
 
 @EnableJpaRepositories
 @SpringBootApplication
-public class BibliotecaAdminApplication {
+public class BibliotecaRestApplication {
 
 	@Autowired
 	PerfilActivo perfilActivo;
 	public static void main(String[] args) {
-		SpringApplication.run(BibliotecaAdminApplication.class, args);
+		SpringApplication.run(BibliotecaRestApplication.class, args);
 
 	}
 	@PostConstruct

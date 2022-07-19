@@ -12,6 +12,7 @@
 	<description>Biblioteca para proveer recursos a web u otro cliente rest</description>
 
 <!--PARENT-->
+
 	<parent>
 		<groupId>org.mariots.biblioteca</groupId>
 		<artifactId>biblioteca-mm</artifactId>
@@ -19,11 +20,13 @@
 	</parent>
 
 <!--PROPERTIES-->
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
 <!--PROFILES-->
+
 	<profiles>
 		<profile>
 			<id>h2profile</id>
@@ -42,29 +45,12 @@
 		</profile>
 	</profiles>
 
-<!--&lt;!&ndash;DEPENDENCIY MANAGEMENT&ndash;&gt;-->
-<!--	<dependencyManagement>-->
-<!--		<dependencies>-->
-<!--			<dependency>-->
-<!--				<groupId>org.mariots.biblioteca</groupId>-->
-<!--				<artifactId>biblioteca-mm</artifactId>-->
-<!--				<version>1.0-SNAPSHOT</version>-->
-<!--				<type>pom</type>-->
-<!--				<scope>import</scope>-->
-<!--			</dependency>-->
-<!--			<dependency>-->
-<!--				<groupId>org.projectlombok</groupId>-->
-<!--				<artifactId>lombok</artifactId>-->
-<!--				<version>${org.projectlombok.version}</version>-->
-<!--				<scope>provided</scope>-->
-<!--			</dependency>-->
-<!--		</dependencies>-->
-<!--	</dependencyManagement>-->
-
 <!--DEPENDENCIES-->
 
-		<!--BASICO-->
 	<dependencies>
+
+		<!--BASICO-->
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -84,6 +70,7 @@
 		</dependency>
 
 		<!--PERSISTENCIA Y BBDD-->
+
 		<dependency>
 			<groupId>com.microsoft.sqlserver</groupId>
 			<artifactId>mssql-jdbc</artifactId>
@@ -104,6 +91,7 @@
 		</dependency>
 
 		<!--MONITORIZACION-->
+
 		<dependency>
 			<groupId>org.springdoc</groupId>
 			<artifactId>springdoc-openapi-ui</artifactId>
@@ -117,17 +105,11 @@
 			<artifactId>spring-data-rest-hal-explorer</artifactId>
 		</dependency>
 
-		<!--SEGURIDAD-->
-<!--		<dependency>-->
-<!--			<groupId>org.springframework.boot</groupId>-->
-<!--			<artifactId>spring-boot-starter-security</artifactId>-->
-<!--		</dependency>-->
-
 		<!--OTROS-->
+
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<version>1.18.24</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
@@ -141,6 +123,7 @@
 	</dependencies>
 
 <!--BUILD-->
+
 	<build>
 		<plugins>
 			<plugin>
@@ -154,29 +137,11 @@
 						<path>
 							<groupId>org.projectlombok</groupId>
 							<artifactId>lombok</artifactId>
-							<version>1.18.24</version>
+							<version>${org.projectlombok.version}</version>
 						</path>
 					</annotationProcessorPaths>
 				</configuration>
 			</plugin>
-
-<!--			<plugin>-->
-<!--				<groupId>org.springframework.boot</groupId>-->
-<!--				<artifactId>spring-boot-maven-plugin</artifactId>-->
-<!--				<version>${spring.boot.maven.plugin.version}</version>-->
-<!--			</plugin>-->
 		</plugins>
 	</build>
-<!--	<build>-->
-<!--		<plugins>-->
-<!--			<plugin>-->
-<!--				<groupId>org.apache.maven.plugins</groupId>-->
-<!--				<artifactId>maven-resources-plugin</artifactId>-->
-<!--				<version>3.1.0</version>-->
-<!--				<configuration>-->
-<!--					<encoding>UTF-8</encoding>-->
-<!--				</configuration>-->
-<!--			</plugin>-->
-<!--		</plugins>-->
-<!--	</build>-->
 </project>
