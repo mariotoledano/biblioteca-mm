@@ -4,11 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+<!--ARITFACT-->
     <groupId>org.mariots.biblioteca</groupId>
     <artifactId>biblioteca-mm</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
+<!--MODULES-->
     <modules>
         <module>biblioteca-rest</module>
         <module>biblioteca-web-admin</module>
@@ -17,14 +19,21 @@
     <!--PROPERTIES-->
     <properties>
         <java.version>11</java.version>
+        <spring.boot.maven.plugin.version>2.7.1</spring.boot.maven.plugin.version>
         <org.projectlombok.version>1.18.24</org.projectlombok.version>
         <maven.compiler.source>16</maven.compiler.source>
         <maven.compiler.target>16</maven.compiler.target>
     </properties>
-
-<!--    <dependencyManagement>-->
-        <!--DEPENDENCIES-->
+<!--    DEPENDENCY MANAGEMENT-->
+    <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-framework-bom</artifactId>
+                <version>4.3.8.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
             <!--BASICO-->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
@@ -83,24 +92,24 @@
             <dependency>
                 <groupId>org.springdoc</groupId>
                 <artifactId>springdoc-openapi-ui</artifactId>
-                <version>1.6.8</version>
+                <version>1.6.9</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.data</groupId>
                 <artifactId>spring-data-rest-hal-explorer</artifactId>
-                <version>3.6.4</version>
+                <version>3.7.0</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-actuator</artifactId>
-                <version>2.6.6</version>
+                <version>2.7.0</version>
             </dependency>
 
             <!--MVC-->
             <dependency>
                 <groupId>org.apache.tomcat.embed</groupId>
                 <artifactId>tomcat-embed-jasper</artifactId>
-                <version>9.0.58</version>
+                <version>10.0.20</version>
             </dependency>
             <dependency>
                 <groupId>javax.servlet</groupId>
@@ -109,10 +118,11 @@
             </dependency>
 
             <!--SEGURIDAD-->
-            <!--		<dependency>-->
-            <!--			<groupId>org.springframework.boot</groupId>-->
-            <!--			<artifactId>spring-boot-starter-security</artifactId>-->
-            <!--		</dependency>-->
+            		<dependency>
+            			<groupId>org.springframework.boot</groupId>
+            			<artifactId>spring-boot-starter-security</artifactId>
+
+            		</dependency>
 
             <!--OTROS-->
             <dependency>
@@ -137,26 +147,26 @@
                 <version>20220320</version>
             </dependency>
         </dependencies>
-
-<!--    </dependencyManagement>-->
+    </dependencyManagement>
+<!--BUILD-->
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.10.1</version>
-                <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                    <annotationProcessorPaths>
-                        <path>
-                            <groupId>org.projectlombok</groupId>
-                            <artifactId>lombok</artifactId>
-                            <version>{org.projectlombok.version}</version>
-                        </path>
-                    </annotationProcessorPaths>
-                </configuration>
-            </plugin>
+<!--            <plugin>-->
+<!--                <groupId>org.apache.maven.plugins</groupId>-->
+<!--                <artifactId>maven-compiler-plugin</artifactId>-->
+<!--                <version>3.10.1</version>-->
+<!--                <configuration>-->
+<!--                    <source>1.8</source>-->
+<!--                    <target>1.8</target>-->
+<!--                    <annotationProcessorPaths>-->
+<!--                        <path>-->
+<!--                            <groupId>org.projectlombok</groupId>-->
+<!--                            <artifactId>lombok</artifactId>-->
+<!--                            <version>{org.projectlombok.version}</version>-->
+<!--                        </path>-->
+<!--                    </annotationProcessorPaths>-->
+<!--                </configuration>-->
+<!--            </plugin>-->
         </plugins>
     </build>
 

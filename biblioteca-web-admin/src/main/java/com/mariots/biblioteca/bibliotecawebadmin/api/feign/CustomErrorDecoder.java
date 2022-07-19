@@ -21,7 +21,7 @@ public class CustomErrorDecoder implements ErrorDecoder {
         public Exception decode(String methodKey, Response response) {
 
                 ExceptionDesdeFeign exceptionDesdeFeign = new ExceptionDesdeFeign
-                        (null, HttpStatus.resolve(response.status()));
+                        (null, HttpStatus.valueOf(response.status()));
 
                 ModeloExceptionFeign modeloExcepcion = null;
 
