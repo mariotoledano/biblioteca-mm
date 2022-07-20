@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4979561e-7869-49ea-9d3f-7337121bfa93" name="Changes" comment="Inclusión de nuevo módulo de arranque ya no compila">
+    <list default="true" id="4979561e-7869-49ea-9d3f-7337121bfa93" name="Changes" comment="Antes de cambiar a spring-boot-dependencies">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/h2bbdd/h2biblioteca.mv.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/h2bbdd/h2biblioteca.trace.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca-rest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca-rest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca-web-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca-web-admin/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +75,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.web-admin">
+  <component name="RunManager" selected="Application.rest-api">
     <configuration name="mm-launcher" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.mariots.biblioteca.bibliotecalauncher.BibliotecaLauncherApplication" />
       <module name="biblioteca-launcher" />
@@ -112,8 +116,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.web-admin" />
         <item itemvalue="Application.rest-api" />
+        <item itemvalue="Application.web-admin" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658247249936</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Antes de cambiar a spring-boot-dependencies">
+      <created>1658332776816</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658332776816</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,6 +169,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Avance en dependencias de modulos" />
     <MESSAGE value="Módulo padre y dos hijos dependecy Management y propiedades heredadas&#10;install correcto con Maven&#10;next: todas propiedades y versiones en parent y crear módulo de arranque" />
-    <option name="LAST_COMMIT_MESSAGE" value="Módulo padre y dos hijos dependecy Management y propiedades heredadas&#10;install correcto con Maven&#10;next: todas propiedades y versiones en parent y crear módulo de arranque" />
+    <MESSAGE value="Antes de cambiar a spring-boot-dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="Antes de cambiar a spring-boot-dependencies" />
   </component>
 </project>
