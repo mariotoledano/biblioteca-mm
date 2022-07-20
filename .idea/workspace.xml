@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4979561e-7869-49ea-9d3f-7337121bfa93" name="Changes" comment="Módulo padre y dos hijos dependecy Management y propiedades heredadas&#10;install correcto con Maven&#10;next: todas propiedades y versiones en parent y crear módulo de arranque">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4979561e-7869-49ea-9d3f-7337121bfa93" name="Changes" comment="Inclusión de nuevo módulo de arranque ya no compila">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca-rest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca-rest/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/BibliotecaAdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/BibliotecaRestApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca-rest/src/main/resources/h2bbdd/h2biblioteca.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/resources/h2bbdd/h2biblioteca.trace.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca-web-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca-web-admin/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,21 +57,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "16",
-    "last_opened_file_path": "C:/Users/anoth/OneDrive/Documentos/Programación/Proyectos/biblioteca-mm/biblioteca-launcher",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;16&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/anoth/OneDrive/Documentos/Programación/Proyectos/biblioteca-mm/biblioteca-launcher&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.rest-api">
+}</component>
+  <component name="RunManager" selected="Application.web-admin">
     <configuration name="mm-launcher" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.mariots.biblioteca.bibliotecalauncher.BibliotecaLauncherApplication" />
       <module name="biblioteca-launcher" />
@@ -119,8 +112,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.rest-api" />
         <item itemvalue="Application.web-admin" />
+        <item itemvalue="Application.rest-api" />
       </list>
     </recent_temporary>
   </component>
