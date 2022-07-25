@@ -4,10 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4979561e-7869-49ea-9d3f-7337121bfa93" name="Changes" comment="Compila todo y arranca menos biblioteca rest por un error referido al h2">
+    <list default="true" id="4979561e-7869-49ea-9d3f-7337121bfa93" name="Changes" comment="Corregido error h2 (funciona con dependencia anterior)&#10;next:módulo de arranque">
+      <change afterPath="$PROJECT_DIR$/biblioteca-launcher/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-launcher/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-launcher/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-launcher/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-launcher/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-launcher/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-launcher/src/main/java/com/mariots/biblioteca/bibliotecalauncher/BibliotecaLauncherApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-launcher/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biblioteca-launcher/src/test/java/com/mariots/biblioteca/bibliotecalauncher/BibliotecaLauncherApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca-rest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca-rest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/core/controller/ControllerBibliotecaRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/core/controller/ControllerBibliotecaRest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/core/service/ServiceBiblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/core/service/ServiceBiblioteca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/core/service/ServiceBibliotecaImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/core/service/ServiceBibliotecaImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/persistence/repository/RepositoryBiblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/persistence/repository/RepositoryBiblioteca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/persistence/repository/RepositoryBibliotecaImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/java/com/mariots/biblioteca/bibliotecarest/persistence/repository/RepositoryBibliotecaImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca-rest/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca-rest/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/h2bbdd/h2biblioteca.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/h2bbdd/h2biblioteca.trace.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/h2bbdd/h2biblioteca.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/h2bbdd/h2biblioteca.mv.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +65,11 @@
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="h2profile" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="2Bwsz47K4g6opHK2L2F2D97Z0NJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -66,21 +87,21 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;16&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/anoth/OneDrive/Documentos/Programación/Proyectos/biblioteca-mm/biblioteca-launcher&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.web-admin">
-    <configuration name="mm-launcher" type="Application" factoryName="Application">
+  <component name="RunManager" selected="Application.biblioteca-rest">
+    <configuration name="biblioteca-launcher" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.mariots.biblioteca.bibliotecalauncher.BibliotecaLauncherApplication" />
       <module name="biblioteca-launcher" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="rest-api" type="Application" factoryName="Application" temporary="true">
+    <configuration name="biblioteca-rest" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.mariots.biblioteca.bibliotecarest.BibliotecaRestApplication" />
       <module name="biblioteca-rest" />
       <extension name="coverage">
@@ -93,7 +114,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="web-admin" type="Application" factoryName="Application" temporary="true">
+    <configuration name="biblioteca-web-admin" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.mariots.biblioteca.bibliotecawebadmin.BibliotecaAdminApplication" />
       <module name="biblioteca-web-admin" />
       <extension name="coverage">
@@ -106,15 +127,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="biblioteca-rest-0.0.1-SNAPSHOT.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/biblioteca-rest/target/biblioteca-rest-0.0.1-SNAPSHOT.jar" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Application.mm-launcher" />
-      <item itemvalue="Application.rest-api" />
-      <item itemvalue="Application.web-admin" />
+      <item itemvalue="Application.biblioteca-launcher" />
+      <item itemvalue="Application.biblioteca-rest" />
+      <item itemvalue="Application.biblioteca-web-admin" />
+      <item itemvalue="JAR Application.biblioteca-rest-0.0.1-SNAPSHOT.jar" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.web-admin" />
-        <item itemvalue="Application.rest-api" />
+        <item itemvalue="Application.biblioteca-rest" />
+        <item itemvalue="JAR Application.biblioteca-rest-0.0.1-SNAPSHOT.jar" />
+        <item itemvalue="Application.biblioteca-web-admin" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658339813291</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Corregido error h2 (funciona con dependencia anterior)&#10;next:módulo de arranque">
+      <created>1658504817157</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658504817157</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,6 +209,18 @@
     <MESSAGE value="Módulo padre y dos hijos dependecy Management y propiedades heredadas&#10;install correcto con Maven&#10;next: todas propiedades y versiones en parent y crear módulo de arranque" />
     <MESSAGE value="Antes de cambiar a spring-boot-dependencies" />
     <MESSAGE value="Compila todo y arranca menos biblioteca rest por un error referido al h2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Compila todo y arranca menos biblioteca rest por un error referido al h2" />
+    <MESSAGE value="Corregido error h2 (funciona con dependencia anterior)&#10;next:módulo de arranque" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corregido error h2 (funciona con dependencia anterior)&#10;next:módulo de arranque" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/biblioteca-web-admin/src/main/java/com/mariots/biblioteca/bibliotecawebadmin/BibliotecaAdminApplication.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

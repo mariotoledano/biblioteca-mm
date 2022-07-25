@@ -52,6 +52,7 @@ public interface ServiceBiblioteca {
     void eliminarTextoPorId(int idTexo);
     void eliminarTemaPorId(int idTema);
     void eliminarSupertemaPorId(int idSupertema);
+    void eliminarTodo();
 
     AutorDto actualizarAutorPorId(int id, AutorNuevo autor);
     TextoDto actualizarTextoPorId(int id, TextoNuevo texto);

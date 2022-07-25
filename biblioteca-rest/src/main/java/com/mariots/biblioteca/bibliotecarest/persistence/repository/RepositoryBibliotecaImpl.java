@@ -118,5 +118,25 @@ public class RepositoryBibliotecaImpl implements RepositoryBiblioteca {
         supertemaJpaRepository.delete(supertema);
     }
 
+    @Override
+    public void eliminarAutores() {autorJpaRepository.deleteAll();
+
+    }
+
+    @Override
+    public void eliminarTextos() {textoJpaRepository.deleteAll();
+
+    }
+
+    @Override
+    public void eliminarTemas() {temaJpaRepository.deleteAll();
+
+    }
+
+    @Override
+    public void eliminarSupertemas() { supertemaJpaRepository.deleteAll();
+
+    }
+
 
 }

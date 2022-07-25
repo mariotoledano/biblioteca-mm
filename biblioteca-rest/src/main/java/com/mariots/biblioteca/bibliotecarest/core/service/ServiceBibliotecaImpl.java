@@ -443,7 +443,16 @@ public class ServiceBibliotecaImpl implements ServiceBiblioteca {
                 .orElseThrow(()->new RecursoNoEncontradoException("Id de supertema no encontrado"));
         repository.eliminarSupertema(supertemaEntity);
     }
-//ACTUALIZAR RECURSO POR ID
+
+    @Override
+    public void eliminarTodo() {
+        repository.eliminarAutores();
+        repository.eliminarTextos();
+        repository.eliminarTemas();
+        repository.eliminarSupertemas();
+    }
+
+    //ACTUALIZAR RECURSO POR ID
     @Override
     public AutorDto actualizarAutorPorId(int idAutor, AutorNuevo autorNuevo) {
         AutorEntity autorEntity = repository.recuperarAutorPorId(idAutor)

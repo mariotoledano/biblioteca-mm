@@ -292,4 +292,11 @@ public class ControllerBibliotecaRest {
         return new ResponseEntity<SupertemaDto>(supertemaDto,HttpStatus.OK);
     }
 
+    @DeleteMapping("eliminarTodo")
+    public ResponseEntity eliminarTodo(){
+        String mensaje = "Todos los recursos han sido eliminados";
+        service.eliminarTodo();
+        return new ResponseEntity<String>(mensaje,HttpStatus.OK);
+    }
+
 }

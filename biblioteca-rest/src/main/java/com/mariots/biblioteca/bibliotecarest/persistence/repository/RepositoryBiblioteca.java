@@ -32,4 +32,10 @@ public interface RepositoryBiblioteca {
     public void eliminarTexto(TextoEntity texto);
     public void eliminarTema(TemaEntity tema);
     public void eliminarSupertema(SupertemaEntity supertema);
+
+    public void eliminarAutores();
+    public void eliminarTextos();
+    public void eliminarTemas();
+    public void eliminarSupertemas();
+
 }
