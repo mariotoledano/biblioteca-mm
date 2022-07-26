@@ -17,6 +17,7 @@
         <module>biblioteca-rest</module>
         <module>biblioteca-web-admin</module>
         <module>biblioteca-launcher</module>
+        <module>biblioteca-batch</module>
     </modules>
 
 <!--PROPERTIES-->
